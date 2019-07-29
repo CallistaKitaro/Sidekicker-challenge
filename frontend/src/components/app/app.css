@@ -1,0 +1,45 @@
+.app{
+  font-size: 1.2rem;
+}
+
+.header-wrapper {
+  text-align: center;
+}
+
+.header-content {
+  background-color: #282c34;
+  height: 60px;
+  padding: 0 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-link{
+  display: block;
+  position: relative;
+}
+
+.header-link:first-child{
+  float: left;
+  font-size: 2.5rem;
+  color: #41c6f1;
+}
+
+.header-link:first-child:hover{
+  text-decoration: none;
+  color: #359dc0;
+}
+
+.header-link:nth-child(2){
+  float: right;
+  color: aliceblue;
+}
+.header-link:nth-child(2):hover{
+  color: #babbbb;
+}
+
+.content-wrapper{
+  padding: 0 100px;
+}

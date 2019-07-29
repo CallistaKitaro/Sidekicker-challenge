@@ -1,0 +1,28 @@
+.job-card{
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: rgb(243, 243, 243);
+    margin: 10px 0;
+    padding: 10px 30px;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+}
+
+.job-card-title{
+    margin: 0;
+}
+
+.job-card-detail-label{
+    font-weight: 500;
+}
+
+.job-card-buttons{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.job-card-buttons > .btn:first-child{
+    margin-right: 30px;
+}
+
+
