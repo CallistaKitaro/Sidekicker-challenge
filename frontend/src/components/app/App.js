@@ -9,6 +9,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import './app.css';
 import ListJobs from '../listJob/ListJobs';
 import PostJob from '../postJob/PostJob';
+import ViewJob from '../listJob/viewJob';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <div className="content-wrapper">
           <Route exact path="/" component={ListJobs} />
           <Route path="/postjob" component={PostJob} />
+          <Route path="/job/:id" component={ViewJob} />
         </div>
 
       </Router>

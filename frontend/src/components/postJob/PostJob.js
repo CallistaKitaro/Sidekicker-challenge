@@ -30,6 +30,14 @@ class PostJob extends React.Component {
     const data = new FormData(event.target);
     
     var valid = true;
+
+    // ['title', 'job_description', 'location'].forEach( field => {
+    //   var value = this.state[field] 
+    //   value = value.trim()
+    //   if (!value || value === ''){
+    //     valid = false;
+    //   }
+    // })
     
     // Check for null/empty input
     for (let val of data.values()){

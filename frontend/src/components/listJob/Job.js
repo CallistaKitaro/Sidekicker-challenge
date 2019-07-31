@@ -30,8 +30,6 @@ class Job extends React.Component {
                 <div className="job-card-content">
                     <h3 className="job-card-title">{this.props.jobObject.title}</h3>
 
-                    
-
                     {this.state.showDetail && 
                         <JobDetail jobObject={this.props.jobObject} />
                     }
